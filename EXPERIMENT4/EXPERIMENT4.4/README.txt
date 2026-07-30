@@ -1,0 +1,3 @@
+SELECT * FROM STUDENT AS S 
+FULL OUTER JOIN COURSE AS C 
+ON S.Course_id = C.Course_id;
